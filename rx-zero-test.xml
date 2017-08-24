@@ -1,12 +1,12 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 <!-- Bad PUSH SDK -->
-<!-- Xiaomi mipush SDK -->
+<!-- Xiaomi mipush SDK by https://github.com/Trumeet/MiPushFramework 
 <prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />
 <prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
 <prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
 <prescription type="service" class="com.xiaomi.push.sdk.service.PushMessageHandler" sender="any" />
 <prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.NetworkStatusReceiver" sender="any" />
-<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" />
+<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" /> -->
 <!-- Taobao push SDK -->
 <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
