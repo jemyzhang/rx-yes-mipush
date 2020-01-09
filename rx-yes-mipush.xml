@@ -78,4 +78,6 @@
 <prescription type="service" package="com.weico.international" class="com.weico.international.service.WeicoNewMsgPullService" sender="any" />
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
+<prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />
 </prescriptions>
